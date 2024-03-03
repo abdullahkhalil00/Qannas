@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="test.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="testpractice.css">
+    <link rel="stylesheet" href="qannas.css">
+
+</head>
+
+<body>
+    <nav class="enn navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid bottom-bar">
+            <a class="navbar-brand" href="#">
+                <img src="qanaslogo.png" alt="" width="80px" style="padding-bottom: 9px !important;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Partners</a>
+                    </li>
+
+
+                    <button class="  position-absolute  end-50  justify-content-end btn btn-outline-success "
+                        id="button" type="button">Get Started</button>
+                    <button   id="flag" onclick="add()" class="enn position-absolute end-30 justify-content-end">
+                        <img src="KSA.png" alt="" width="39px" id="piccc">
+                        <p id="picc " style="color: black;">عربی</p>
+
+                    </button>
+                   
+
+
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="arr navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid bottom-bar">
+            <a class="navbar-brand" href="#">
+                <img src="qanaslogo.png" alt="" width="80px" style="padding-bottom: 9px !important;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">من نحن؟
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">الخدمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">شركاء</a>
+                    </li>
+
+
+                    <button class="  position-absolute  end-50  justify-content-end btn btn-outline-success "
+                        id="button" type="button">البدء</button>
+                  
+                    <button id="flagg" onclick="remove()" class="arr position-absolute end-30 justify-content-end">
+                        <img src="USA.png" style="display: inline-block;" alt=""  width="39px" id="piccc">
+
+
+                        <p id="picc" style="display: inline-block;" >en</p>
+                    </button>
+
+
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="padding-top: 14%;">
+        <div class="row">
+            <div class="col-lg-6  col-md-6 col-12" id="parag">
+
+                <p id="inves" class="enn">All your investment in one <br> place</p>
+                <p id="para" class="enn">With Qannas you can link and manage your investment portfolios and measure
+                    their
+                    performance in one
+                    platform</p>
+                <p id="inves" class="arr">كل استثماراتك في مكان واحد</p>
+                <p id="para" class="arr">مع قناص يمكنك ربط وإدارة محافظك الاستثمارية وقياس أدائها في منصة واحدة
+                </p>
+
+                <div class="getsss enn" style="display: inline-flex;">
+
+                    <a href="" id="gets">
+                        Get Started
+                    </a>
+                    <a href="" id="getss">
+                        Contact Us
+                    </a>
+                </div>
+                <div class="getsss arr" style="display: inline-flex;">
+
+                    <a href=""  id="gets">
+                        البدء
+                    </a>
+                    <a href=""  id="getss">
+                        اتصل بنا
+                    </a>
+                </div>
+
+                <img src="Star_sign.svg" alt="" id="star">
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+                <img width="80%" src="hero-en.jpg" class="enn" alt="">
+
+                <img width="80%" class="arr" src="hero-ar.jpg" alt="">
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="card">
+        <div class="row">
+
+            <img src="Star_sign.svg" alt="" id="staaa">
+
+            <div class="row">
+                <p id="build" class="enn">Build your Qannas portfolio</p>
+                <p id="build" class="arr">قم ببناء محفظة قناص الخاصة بك</p>
+
+            </div>
+
+
+
+        </div>
+        <div class="row">
+
+
+
+
+            <div class="col-lg-4 col-md-6  col-12" style="padding-left: 63px;">
+                <div id="first" class="enn">
+                    <img src="portfolio-icon1.svg" alt="">
+                    <h5 style="font-weight: 600 ; font-size: 20px; padding-bottom: 7px;">Ease Usability</h5>
+                    <p style="font-size: 16px; font-weight: 300;">
+
+                        You can add various assets such as stocks, bonds, mutual funds, and other financial assets
+                        to your portfolio using an easy-to-use interface.
+
+
+                    </p>
+
+                </div>
+                <div id="first" class="arr">
+                    <img src="portfolio-icon1.svg" alt="">
+                    <h5 style="font-weight: 600 ; font-size: 20px; padding-bottom: 7px;">مقياس الاداء</h5>
+                    <p style="font-size: 16px; font-weight: 300;">
+
+                        يتضمن مقياس الأداء تحليلًا لعناصر المخاطر مثل التقلبات السعرية والتقديرات الاحتمالية للعائدات
+                        والتداولات السابقة في الأداء، ومقارنتها بالحالية.
+
+                    </p>
+
+                </div>
+
+                <div id="firstt" class="enn">
+                    <img src="portfolio-icon3.svg" alt="">
+                    <h5 style="font-weight: 600 ; font-size: 20px; padding-bottom: 7px;">Collect portfolios</h5>
+                    <p style="font-size: 16px; font-weight: 300;">
+
+                        Qannas allows you to collect different financial portfolios in one place for comprehensive
+
+                        management.
+
+                    </p>
+
+                </div>
+
+
+                <div id="firstt" class="arr">
+                    <img src="portfolio-icon3.svg" alt="">
+                    <h5 style="font-weight: 600 ; font-size: 20px; padding-bottom: 7px;">جمع المحافظ</h5>
+                    <p style="font-size: 16px; font-weight: 300;">
+
+                        يتيح لك قناص جمع المحافظ المالية المختلفة في محفظة واحدة للإدارة الشاملة.
+
+                    </p>
+
+                </div>
+
+
+
+            </div>
+            <div class="col-lg-4   col-12">
+                <div id="tfirst" class="enn">
+                    <h5 id="ios">
+                        IOS & ANDROID APP
+                    </h5>
+                    <p slot="font-size: 16px; font-weight: 300;">The “Qannas” application available for both Android and
+                        IOS.</p>
+                    <img src="portfolio-mobile.png" width="90%" alt="">
+                </div>
+                <div id="tfirst" class="arr">
+                    <h5 id="ios">
+                        IOS وأندرويد
+                    </h5>
+                    <p slot="font-size: 16px; font-weight: 300;">تطبيق “قناص” متوفر في متجر App store وعلى نظام الـ IOS.
+                    </p>
+                    <img src="port-mobile-ar.png" width="90%" alt="">
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+
+
+                <div id="first" class="enn">
+                    <img src="portfolio-icon2.svg" alt="">
+                    <h5 style="font-weight: 600 ; font-size: 20px; padding-bottom: 7px;">Performance Measurement</h5>
+                    <p style="font-size: 16px; font-weight: 300;">
+
+                        The performance measure includes an analysis of risk elements such as price volatility,
+                        probabilistic estimates of returns and past trading performance.
+
+                    </p>
+
+                </div>
+                <div id="first" class="arr">
+                    <img src="portfolio-icon2.svg" alt="">
+                    <h5 style="font-weight: 600 ; font-size: 20px; padding-bottom: 7px;">سهولة الاستخدام</h5>
+                    <p style="font-size: 16px; font-weight: 300;">
+
+                        يتيح لك التطبيق إنشاء محفظة استثمارية بسهولة، يمكنك من خلالها إضافة الأصول المختلفة مثل الأسهم،
+                        السندات، الصناديق المشتركة، وغيرها من الأصول المالية باستخدام واجهة سهلة الاستخدام.
+                    </p>
+
+                </div>
+                <div id="firstt" class="arr">
+                    <img src="portfolio-icon4.svg" alt="">
+                    <h5 style="font-weight: 600 ; font-size: 20px; padding-bottom: 7px;">قياس المخاطر</h5>
+                    <p style="font-size: 16px; font-weight: 300;">
+
+                        نساعد المستثمرين ومديري المحافظ على فهم مدى التعرض للمخاطر وتقييم العوائد المتوقعة مقابل تلك
+                        المخاطر
+                    </p>
+
+                </div>
+                <div id="firstt" class="enn">
+                    <img src="portfolio-icon4.svg" alt="">
+                    <h5 style="font-weight: 600 ; font-size: 20px; padding-bottom: 7px;">Risk Measurement</h5>
+                    <p style="font-size: 16px; font-weight: 300;">
+
+                        helps investors and portfolio managers understand the extent of exposure to risk and evaluate
+                        expected returns against those risks.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row " style="margin-top: 94px;">
+            <p class="ser enn"> SERVICSE</p>
+            <p class="ser arr"> خدمات</p>
+
+        </div>
+        <div class="row " style="margin-top: -30px;">
+            <p class="serr enn"> Qannas Features</p>
+            <p class="serr arr"> مميزات قناص</p>
+
+
+        </div>
+
+
+
+
+        <div class="row"
+            style=" background-image: url(features-bg.7a603f597f17af62.png); padding-top: 61px; padding-bottom: 27px;">
+            <div class="col-lg-6 col-md-6 col-12" style="text-align: center;">
+                <h2 class="enn" style="padding-bottom: 24px;">Initial Public Offering</h2>
+                <h2 class="arr" style="padding-bottom: 24px;">مشاركة المحفظة</h2>
+
+                <p class="enn" style="font-size: 17px;">Users Can Review, Evaluate And Subscribe To IPOs Through The
+                    Application.
+                </p>
+                <p class="arr" style="font-size: 17px;">تتيح للمستخدمين مشاركة محافظهم الاستثمارية مع الآخرين
+                </p>
+                <div style="display: flex; justify-content: center;">
+                    <img class="enn" width="201px" src="feature-mobile1.png" alt="">
+
+                </div>
+                <div style="display: flex; justify-content: center;">
+                    <img class="arr" width="201px" src="feature-mobile1-ar.png" alt="">
+
+                </div>
+
+                <a class="enn" href="">Learn more-></a>
+                <a class="arr" href="">يتعلم أكثر</a>
+
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12" style="text-align: center;">
+                <h2 style="padding-bottom: 24px;" class="enn">Shared My Portfolio</h2>
+                <h2 style="padding-bottom: 24px;" class="arr">الاكتتابات</h2>
+
+
+
+                <p style="font-size: 17px;" class="enn">It Allows Users To Share Their Investment Portfolios With
+                    Others.</p>
+                <p style="font-size: 17px;" class="arr">نمكن المستخدمين من مراجعة وتقييم الاشتراكات في الاكتتابات العامة
+                    من خلال تطبيق ومنصة قناص.</p>
+
+
+
+                <div style="display: flex; justify-content: center;">
+                    <img class="enn" width="201px" src="feature-mobile2.png" alt="">
+
+                </div>
+                <div style="display: flex; justify-content: center;">
+                    <img class="arr" width="201px" src="feature-mobile2-ar.png" alt="">
+
+                </div>
+
+
+
+                <a class="enn" href="">Learn more-></a>
+                <a class="arr" href="">يتعلم أكثر</a>
+
+
+            </div>
+        </div>
+
+        <div class="row" style="text-align: center; margin-top: 120px;">
+            <h1 class="enn">See How Qannas work</h1>
+            <h1 class="arr"> خطوات تشغيل التطبيق</h1>
+
+        </div>
+
+        <div class="row" style="margin-top: 72px;">
+            <div class="col-lg-5 col-md-12 col-12">
+                <div class="getsta enn">
+                    <h2 style="font-size: 42px; padding-bottom: 11px;">Get started today</h2>
+                    <p>Download Qannas App and enjoy for 7 days free</p>
+                    <p><img src="demo-icon1.svg" alt=""> <span style="padding-left: 2px;"> Download app</span></p>
+                    <p> <img src="demo-icon2.svg" alt=""> <span style="padding-left: 8px;"> Create a free Portfolios</span></p>
+                    <p> <img src="demo-icon3.svg" alt=""><span style="padding-left: 11px;">Start Invest</span> </p>
+                </div>
+                <div class="getsta arr">
+                    <h2 style="font-size: 42px; padding-bottom: 11px;">خابدأ اليوم</h2>
+                    <p>حمل تطبيق قناص واستمتع لمدة 7 أيام مجاناً</p>
+                    <p><img src="demo-icon1.svg" alt=""> <span style="padding-left: 2px;"> تحميل التطبيق</span></p>
+                    <p> <img src="demo-icon2.svg" alt=""> <span style="padding-left: 8px;"> إنشاء محافظ مجانية</span></p>
+                    <p> <img src="demo-icon3.svg" alt=""><span style="padding-left: 11px;">ابدأ الاستثمار</span> </p>
+                </div>
+
+
+            </div>
+            <div class="col-lg-7 col-md-12 col-12" style="text-align: center;">
+                <img src="demo-bgg.9eb3f7d525ef1551.png" width="475px" alt="">
+            </div>
+
+        </div>
+        <div class="row" style="margin-top: 120px; text-align: center;">
+            <h1 class="enn">Success Partners of Qannas</h1>
+            <h1 class="arr">شركاء النجاح للقناص</h1>
+
+        </div>
+        <div class="row" style="margin-top: 77px;">
+            <marquee behavior="" direction="left">
+                <img src="partner1.png" alt="">
+                <img src="partner2.png" alt="">
+                <img src="partner3.png" alt="">
+                <img src="partner4.png" alt="">
+                <img src="partner5.png" alt="">
+                <img src="partner6.png" alt="">
+                <img src="partner7.png" alt="">
+                <img src="partner8.png" alt="">
+                <img src="partner1.png" alt="">
+                <img src="partner2.png" alt="">
+                <img src="partner3.png" alt="">
+                <img src="partner4.png" alt="">
+                <img src="partner5.png" alt="">
+                <img src="partner6.png" alt="">
+                <img src="partner7.png" alt="">
+                <img src="partner8.png" alt="">
+                <img src="partner1.png" alt="">
+                <img src="partner2.png" alt="">
+                <img src="partner3.png" alt="">
+                <img src="partner4.png" alt="">
+                <img src="partner5.png" alt="">
+                <img src="partner6.png" alt="">
+                <img src="partner7.png" alt="">
+                <img src="partner8.png" alt="">
+
+
+
+            </marquee>
+        </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-12">
+    <img src="faq.svg" alt="">
+        </div>
+        <div class="col-lg-6 col-12">
+            <h1 class="enn">
+                Frequently asked questions
+            </h1>
+            <h1 class="arr">
+                أسئلة مكررة</h1>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    </div>
+
+
+
+    <script>
+
+        function add() {
+        console.log("Called add")
+            document.body.classList.add('ar')
+        }
+
+        function remove() {
+            console.log("Removed called")
+            document.body.classList.remove('ar')
+        }
+
+    </script>
+
+
+</body>
+
+</html>

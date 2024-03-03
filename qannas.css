@@ -1,0 +1,18 @@
+
+
+.enn{
+    display: block ;
+
+}
+.arr{
+    display: none !important;
+    
+}
+ body.ar .enn{
+    display: none !important;
+
+}
+ body.ar .arr{
+    display: block !important;
+    
+}

@@ -1,0 +1,15 @@
+#picc.enn {
+    display: none;
+  }
+  
+  #picc.arr {
+    display: block;
+  }
+  
+  body.ar #picc.enn {
+    display: block;
+  }
+  
+  body.ar #picc.arr {
+    display: none;
+  }
